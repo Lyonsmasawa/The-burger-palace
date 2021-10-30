@@ -1,24 +1,28 @@
-body{
+body {
   margin: 0%;
   padding: 0%;
   font-family: 'Poppins';
 }
-nav{
+
+nav {
   width: 100%;
   overflow: hidden;
   background-color: aquamarine;
 }
-nav ul{
+
+nav ul {
   padding: 0;
   margin: 50px 300px 20px 150px;
   list-style: none;
   text-align: right;
 
 }
-nav li{
+
+nav li {
   display: inline-block;
 }
-nav a{
+
+nav a {
   width: 100%;
   display: block;
   padding: 0px 40px;
@@ -28,55 +32,111 @@ nav a{
   text-align: center;
   color: black;
 }
-nav a:active{
+
+nav a:active {
   text-decoration-line: underline;
   text-decoration-color: #d87a4f;
   text-decoration-thickness: 11px;
   text-underline-offset: 12px;
 }
-.logo img{
+
+.logo img {
   position: absolute;
   margin-top: 10px;
   margin-left: 10px;
 }
-.logo h1{
+
+.logo h1 {
   font-size: 45px;
   padding: 0;
   margin: 30px 0 0 100px;
   position: absolute;
   font-family: fantasy;
 }
-footer .design{
+
+footer .design {
   float: right;
   margin: 0 70px 0 0;
 }
 
 .fa-facebook {
   background: black;
-  color: white;  
+  color: white;
 
 }
-.footer .fa{ 
+
+.footer .fa {
   color: rgba(0, 0, 0, 0.863);
   font-size: 27px;
   padding: 5px 10px 0 10px;
   margin-top: 5px;
 }
-.footer .social{
+
+.footer .social {
   display: inline;
 }
-.footer #copyright{
+
+.footer #copyright {
   float: left;
   margin-top: 10px;
 }
-.footer #designed{
+
+.footer #designed {
   float: right;
   margin-top: 10px;
 }
-.footer span{
+
+.footer span {
   font-size: 25px;
 }
-.footer{
+
+.footer {
   padding: 20px 70px 20px 20px;
   text-align: center;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+  padding: 30px;
+}
+
+.column-left {
+  float: left;
+  width: 45%;
+  padding: 20px;
+}
+
+.column-right {
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+
+#home {
+  padding: 50px;
+}
+
+h1 .rain {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding:14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+
+}
+#cook{
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(131, 131, 131);
+}
+* {
+  box-sizing: border-box;
 }
