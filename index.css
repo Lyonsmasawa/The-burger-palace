@@ -116,10 +116,11 @@ footer .design {
 
 #home .column-right {
   float: left;
-
   display: block;
   width: 58%;
   padding-right: 0px;
+}
+.up{
   clip-path: polygon(40% 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: #f6b400;
 }
@@ -449,6 +450,7 @@ input[type=submit] {
 .dot-1{
   background-color: #b66d01e7;
 }
-.play{
+.play, .app{
+  
   display: block;
 }
