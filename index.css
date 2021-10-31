@@ -446,3 +446,10 @@ input[type=submit] {
 .dot-1{
   background-color: #b66d01e7;
 }
+.play{
+  display: block;
+}
+.but{
+  display: block;
+  text-align: center;
+}
