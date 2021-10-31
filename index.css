@@ -225,9 +225,9 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.568);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.568);
   border-radius: 80px;
-  margin: 5px;
+  margin: 40px 40px 5px 40px;
 }
 
 .container {
@@ -269,4 +269,50 @@ html {
 }
 .img{
   width: 100%;
+}
+.cash{
+  float: left;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.container2 {
+  padding: 150px 0;
+  background-color: whitesmoke;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-lefts {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.column-rights {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+.taste{
+  padding-left: 80px;
+
+}
+.deckertext{
+  padding-left: 70px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #f6b400;
+}
+.doubletext{
+  padding-left: 70px;
+  margin-top: 70px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.spanname{
+  display: block;
 }
