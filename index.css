@@ -429,3 +429,11 @@ input[type=submit] {
   margin: 0px 0 0 70px;
   font-family: fantasy;
 }
+.dcheck1{
+  float: inline-end;
+}
+.dcheck2{
+  padding-bottom: 150px;
+  float: right;
+  position: absolute;
+}
