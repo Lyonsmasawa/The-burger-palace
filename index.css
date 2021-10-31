@@ -120,11 +120,12 @@ footer .design {
   width: 58%;
   padding-right: 0px;
 }
+/*
 .up{
   clip-path: polygon(40% 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: #f6b400;
 }
-
+*/
 #home {
   padding: 60px;
 }
