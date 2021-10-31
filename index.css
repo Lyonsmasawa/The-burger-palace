@@ -431,7 +431,18 @@ input[type=submit] {
   float: inline-end;
 }
 .dcheck2{
-  padding-bottom: 150px;
+
   float: right;
   position: absolute;
+}
+.dot, .dot-1 {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px;
+}
+.dot-1{
+  background-color: #b66d01e7;
 }
