@@ -321,6 +321,8 @@ html {
 }
 .download{
   display: inline-block;
+  padding-top: 100px;
+  font-weight: bolder;
 }
 .column-lef{
   float: left;
@@ -332,8 +334,29 @@ html {
 }
 .down{
   background-color: #f6b400;
-  padding: 230px 40px 230px 60px;
+  padding: 200px 40px 120px 60px;
   display: block;
-  font-size: 50px;
+  font-size: 53px;
   font-weight: bolder;
+  vertical-align: middle;
+}
+.pic{
+  float: right;
+  width: 160%;
+}
+.site{
+  padding: 30px;
+  background-color: whitesmoke;
+}
+.logo1{
+  float: left;
+  padding-top: 100px;
+}
+.column-1{
+  float: left;
+  width: 30%;
+}
+.column-2{
+  float: left;
+  width: 35%;
 }
