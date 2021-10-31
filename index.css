@@ -106,6 +106,8 @@ footer .design {
   padding: 20px;
   padding-top: 190px;
   font-size: 24px;
+
+  
 }
 
 #home .column-right {
@@ -116,6 +118,7 @@ footer .design {
 
 #home {
   padding: 60px;
+  
 }
 
 h1 .rain {
@@ -315,4 +318,22 @@ html {
 }
 .spanname{
   display: block;
+}
+.download{
+  display: inline-block;
+}
+.column-lef{
+  float: left;
+  width: auto;
+}
+.column-righ{
+  float: right;
+  width: 40%;
+}
+.down{
+  background-color: #f6b400;
+  padding: 230px 40px 230px 60px;
+  display: block;
+  font-size: 50px;
+  font-weight: bolder;
 }
