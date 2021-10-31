@@ -14,11 +14,17 @@ nav ul {
   margin: 50px 300px 20px 150px;
   list-style: none;
   text-align: right;
-
 }
 
 nav li {
   display: inline-block;
+
+}
+nav .active{
+  text-decoration-line: underline;
+  text-decoration-color: #d87a4f;
+  text-decoration-thickness: 11px;
+  text-underline-offset: 8px;
 }
 
 nav a {
@@ -366,9 +372,8 @@ html {
 }
 
 .logo1 {
-  float: left;
-  padding-top: 100px;
-  position: relative;
+  display: inline-block;
+  padding-top: 80px;
 }
 
 .column-1 {
