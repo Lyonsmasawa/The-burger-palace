@@ -94,13 +94,13 @@ footer .design {
   text-align: center;
 }
 
-.row::after {
+#home .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column-left {
+#home .column-left {
   float: left;
   width: 40%;
   padding: 20px;
@@ -108,7 +108,7 @@ footer .design {
   font-size: 24px;
 }
 
-.column-right {
+#home .column-right {
   float: left;
   width: 60%;
   padding-right: 20px;  
@@ -123,7 +123,7 @@ h1 .rain {
   font-weight: 900;
 }
 
-.button {
+#home .button {
   margin-top: 150px;
   margin-left: 53px;
   border: none;
@@ -141,17 +141,46 @@ h1 .rain {
   font-weight: 900;
   color: rgb(131, 131, 131);
 }
-
-* {
-  box-sizing: border-box;
-}
-
 .imghome{
   height: 900px;
   width: auto;
   margin-left: 100px;
 }
+#home{
+  display: table;
+}
+html {
+  box-sizing: border-box;
+}
 
-.services .column{
-  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.services .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.services .container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.container::after, .services::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.bell, .truck, .food{
+  height: auto;
+  width: 100px;
 }
